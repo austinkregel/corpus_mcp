@@ -1,0 +1,113 @@
+node_modules/
+viewer/node_modules/
+viewer/dist/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Mercenaries 2 World in Flames.zip
+output/
+Mercenaries 2 World in Flames.iso
+SaveGames/
+Models Archives/
+UnrealEngineGame/
+lua-5.1.5/
+lua-5.1.5.tar.gz
+tools/lua51-mercs2/lua
+tools/lua51-mercs2/luac
+tools/lua51-mercs2/liblua.a
+tools/lua51-mercs2/build/
+tools/lua51-mercs2/src/lua
+tools/lua51-mercs2/src/luac
+tools/lua51-mercs2/src/liblua.a
+tools/lua51-mercads2/src/*.o
+
+analysis/*
+tools/bin/
+MattiasNilsson
+MattiasNilssonExport
+Mercenaries 2 World in Flames/
+assets/
+output_demo/
+Mercenaries 2 World in Flames DEMO
+game-files/
+first-game-source-code-with-engine/
+
+*.dll
+tools/*agent*.py
+docs/**plan*.md
+
+*.zip
+*.rar
+*.iso
+*.wad
+*.bin
+*.txt
+*.log
+*.err
+*.err.log
+*.out 
+*.asi
+tools/lua51-mercs2/lua.exe
+tools/lua51-mercs2/luac.exe
+tools/lua51-mercs2/src/
+tools/lua51-src/
+
+tools/x32dbg/plugins/
+tools/x32dbg/release-notes.md
+tools/x32dbg/themes/
+tools/x32dbg/translations/
+tools/x32dbg/x32/
+tools/x32dbg/x64/
+tools/x32dbg/x96dbg.exe
+tools/x32dbg/x96dbg.ini
+
+tools/wad_simulator/target/
+*.d
+
+tools/unrar/
+tools/ghidra_12.1_PUBLIC/
+tools/jdk21/
+msvc/
+downloads/
+tools/unrar
+tools/lua51-mercs2
+tools/lua_enum_asi
+tools/ffmpeg
+tools/external/
+*session*.md
+*investigation*.md
+build/
+# agent worktrees are embedded git repos — never commit them
+.claude/worktrees/
+
+tools/wad_simulator/
+tools/pmc_blackbox/
+
+# registry backups contain the ergc registration code — keep out of git
+backups/registry/
+
+# online-restore runtime artifacts (regenerated / secrets / capture spool)
+tlsterm/selfsigned.crt
+tlsterm/selfsigned.key
+coopserver/profiles.json
+coopserver/logs/
+data/captures/
+
+# corpus index: DB is derived data; un-ignore the mcp config jsons
+storage/corpus_lancedb/
+!.mcp.json
+!tools/corpus_mcp/package.json
+!tools/corpus_mcp/package-lock.json
+
+tools/mercs2-tools-gfxforge/
+tools/mercs2-tools-gfxtool/
+
+# corpus_mcp local config: keep the example, ignore the real .env
+tools/corpus_mcp/.env
+!tools/corpus_mcp/.env.example
+# Large binaries / regenerable artifacts — keep them out of history
+untitled.blend
+custom-tank.glb
+tools/rainbow_table.json
+tools/saboteur_audio/target/
